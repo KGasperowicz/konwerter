@@ -87,6 +87,10 @@ button:active {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    justify-content: flex-start;
+    padding-top: 20%;
+  }
   .wrapper {
     padding: 2rem;
     max-width: 90%;
